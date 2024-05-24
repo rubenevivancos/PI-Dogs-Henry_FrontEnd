@@ -1,0 +1,13 @@
+export const LIST_DOGS = 'LIST_DOGS';
+export const LIST_TEMPERAMENTS = 'LIST_TEMPERAMENTS';
+export const CREATE_SUCCESS = 'CREATE_SUCCESS';
+export const FIRST_PAGE = 'FIRST_PAGE';
+export const PREV_NEXT_PAGE = 'PREV_NEXT_PAGE';
+export const LAST_PAGE = 'LAST_PAGE';
+export const ERROR = 'ERROR';
+export const ITEMS_BY_PAGE = 8;
+export const GET_BY_NAME = 'GET_BY_NAME';
+export const FILTER_ORIGIN_TEMPERAMENT = 'FILTER_ORIGIN_TEMPERAMENT';
+export const ORDER_BY_NAME = 'ORDER_BY_NAME';
+export const ORDER_BY_WEIGHT = 'ORDER_BY_WEIGHT';
+export const GET_DOG_DETAIL = 'GET_DOG_DETAIL';

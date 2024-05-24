@@ -1,0 +1,101 @@
+.profile {
+    display: flex;
+    gap: 45px;
+    width: 526px;
+    font-family: Garamond;
+  }
+  .dogDetail {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .div_dog_profile {
+    width: 180px; 
+    height: 180px;
+    border-radius: 10px; 
+    overflow: hidden;
+  }
+  .image_dog_profile {
+    position: relative;
+    max-width: 310px;
+    right: 70px;
+    z-index: 2;
+  }
+  .div_dog_name {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .name_dog {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--azul-oscuro);
+  }
+  .sobre_dog {
+    font-size: 20px;
+    font-weight: 700;
+    color: #565656;
+  }
+  
+  .table_container {
+    margin: 44px 0 0;
+  }
+  table {
+    max-width: 526px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    color: var(--azul-oscuro);
+    text-align: start;
+  }
+  th, td {
+    border: 1px solid var(--gris-claro);
+    border-collapse: collapse;
+  }
+  .encabezado_tabla {
+    padding: 20px ;
+  }
+  .table_caracteristicas {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--gris-oscuro);
+    padding: 20px;
+  }
+  .table_temp {
+    padding-bottom: 88px;
+  }
+  .table_datos {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gris-claro);
+  }
+
+
+.container_cards{
+    width: 90%;
+    height: auto;
+    margin: 30px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    /*justify-content: space-evenly;*/
+    font-family: Garamond;
+}
+
+.enter {
+  text-decoration: none;
+  padding: 2px 1px 0;
+  font-size: 20px;
+  color: black;
+}
+
+.image{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}

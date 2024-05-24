@@ -1,0 +1,42 @@
+body{
+    margin: 0px; 
+    background-image: linear-gradient(to top, #ffb809, #f8c31e, #f2cd2e, #ebd63e, #e5df4e, #e5e450, #e4ea52, #e3ef55, #e8f349, #edf73b, #f2fa28, #f7fe00);
+    background-attachment: fixed;
+}
+
+.landing {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column-reverse;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../Images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing_title{
+  font-family: "VT323", monospace;
+  color: black;
+  text-shadow: 2px 2px black;
+  font-size: calc(2em + 2vw);
+  /*text-align: center;*/
+  /*padding-top: 20px;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+.enter {
+  text-decoration: none;
+  padding: 2px 1px 0;
+  font-size: 25px;
+  color: black;
+}
+
+.enter:hover {
+  border-bottom: 1px solid;
+  background: black;
+  color: white;
+}

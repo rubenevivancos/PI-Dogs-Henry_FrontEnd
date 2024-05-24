@@ -1,0 +1,28 @@
+.container_cards{
+    width: 90%;
+    height: auto;
+    margin: 30px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.link{
+  font-family: Garamond;
+  text-decoration: none;
+}
+
+.image{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+/*
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 30px);
+    grid-auto-rows: 70px;
+  }
+*/

@@ -1,0 +1,94 @@
+.container_cards{
+    width: 90%;
+    height: auto;
+    margin: 30px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    /*justify-content: space-evenly;*/
+    font-family: Garamond;
+    text-decoration: none;
+}
+
+.enter {
+    text-decoration: none;
+    padding: 2px 1px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.form{
+    width: 90%;
+    height: auto;
+    margin: 30px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: space-evenly;*/
+    font-family: Garamond;
+}
+
+.button{
+    width: 100%;
+    font-weight: 600;
+    font-family: Garamond;
+}
+
+.text{
+    width: 80%
+}
+
+.text2{
+    width: 50%
+}
+
+.ul_temp {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--naranja);
+}
+
+.li_temp {
+    display: flex;
+    gap: 5px;
+    border: 1px solid var(--naranja);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.delete_temp {
+    border: none;
+    color: var(--azul-oscuro);
+    background-color: var(--blanco);
+    cursor: pointer;
+  }
+
+.word{
+    font-weight: 600;
+    font-family: Garamond;
+}
+
+.error{
+    color: red;
+    font-weight: 600;
+    font-family: Garamond;
+}
+
+.table{
+    background-image: url("../../Images/fondoTable.jpg");
+}
+
+.table_container {
+    margin: 44px 0 0;
+  }
+
+.tablePadding{
+    padding: 20px ;
+}

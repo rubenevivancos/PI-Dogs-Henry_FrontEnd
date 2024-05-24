@@ -1,0 +1,15 @@
+.list_dogs{
+    padding: 50px;
+}
+
+.pagination_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    border-radius: 3px;
+    padding: 0px;
+    width: 530px;
+    justify-content: space-around;
+}

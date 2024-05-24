@@ -1,0 +1,17 @@
+.container_filters{
+    width: 190%;
+    margin-top: 1.3rem;
+    border-radius: 25px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: none;
+    font-family: Garamond;
+}
+
+select{
+    font-family: Garamond;
+}
