@@ -11,7 +11,7 @@ export function createDog(dog){
     return async function(dispatch){
         let response = null;
         try{
-            response = (await axios.post("http://localhost:3001/dogs/createDog", dog)).data;
+            response = (await axios.post("/dogs/createDog", dog)).data;
             
             dispatch({
                 type: CREATE_SUCCESS,
@@ -38,7 +38,7 @@ export function listDogs(){
     console.log("[ src/Store/Actions/index.js/listDogs ] INICIO");
     return async function(dispatch){
         try{
-            const response = (await axios.get("http://localhost:3001/dogs/listDogs")).data;
+            const response = (await axios.get("/dogs/listDogs")).data;
 
             dispatch({
                 type: LIST_DOGS,
@@ -58,7 +58,7 @@ export function listTemperaments(){
     console.log("[ src/Store/Actions/index.js/listTemperaments ] INICIO");
     return async function(dispatch){
         try{
-            const response = (await axios.get("http://localhost:3001/dogs/listTemperaments")).data;
+            const response = (await axios.get("/dogs/listTemperaments")).data;
 
             dispatch({
                 type: LIST_TEMPERAMENTS,
@@ -78,7 +78,7 @@ export function getByName(name) {
     console.log("[ src/Store/Actions/index.js/getByName(name) ] INICIO ");
     return async function (dispatch) {//Dispatch que podemos usar gracias a la asincronia provista por el middleware thunk
         try {
-            var response = (await axios.get(`http://localhost:3001/dogs/getByName?name=${name}`)).data;
+            var response = (await axios.get(`/dogs/getByName?name=${name}`)).data;
             console.log("[ src/Store/Actions/index.js/getByName(name) ] Resultado cantidad: " + response.length); 
             return dispatch ({
                 type: GET_BY_NAME,
@@ -130,7 +130,7 @@ export function getDogDetail(id) {
     return async function (dispatch) {
         try {
             console.log("getDogDetail(id): INICIO");
-            var response = (await axios.get("http://localhost:3001/dogs/getDetail?idRaza="+id)).data;
+            var response = (await axios.get("/dogs/getDetail?idRaza="+id)).data;
             console.log("getDogDetail(id): Se recibio respuesta del backend");
             console.log("getDogDetail(id): response: " + response);
 
