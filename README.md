@@ -4,7 +4,7 @@ Aplicación que consume datos de una API (The Dog API) a través de un Backend. 
 
 Está versión está hecha con Redux.
 
-## Tecnologías usadas
+**Tecnologías usadas**
 
 - **JavaScript**
 - **React JS**
